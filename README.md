@@ -1,3 +1,19 @@
+# DEPRECATED
+
+This theme has been deprecated in favor of
+[gatsby-plugin-collections](https://github.com/rogermparent/gatsby-plugin-collections),
+a generalized plugin that handles any node type that sits aside
+`gatsby-theme-mdx-pages` instead of on top of it.
+
+The `MdxPage`-specific logic has been extracted to `gatsby-theme-mdx-blog`, and
+the rest now in `gatsby-plugin-collections`.
+
+I know it's a bit weird to deprecate the whole thing so early, but at least it's
+before any widespread adoption, right? I hope you understand. I'm keeping this
+around for now because the version of `-theme-mdx-blog` that was submitted to the Gatsby
+Theme Jam relies on it, but there's no real reason to even be looking at this
+over the new plugin.
+
 # Gatsby Theme: MDX Collections
 
 This Gatsby theme sits on top of `gatsby-theme-mdx-pages`, expanding on it and
